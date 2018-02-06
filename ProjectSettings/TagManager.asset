@@ -8,6 +8,7 @@ TagManager:
   - InnerMineArea
   - mine
   - Normalize
+  - BadDog
   layers:
   - Default
   - TransparentFX

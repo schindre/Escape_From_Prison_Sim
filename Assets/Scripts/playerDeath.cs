@@ -12,7 +12,10 @@ public class playerDeath : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKey (KeyCode.Escape)) 
+		{
+			Application.LoadLevel ("Scene 1");
+		}
 	}
 
 	void OnTriggerEnter(Collider other) 
@@ -20,8 +23,10 @@ public class playerDeath : MonoBehaviour {
 		Debug.Log ("restart");
 		if (other.gameObject.tag == "mine") 
 		{
-			SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
-			Debug.Log ("restasdasdasdasdaart");
+			Destroy(gameObject);
+		}
+		if (other.gameObject.tag == "BadDog") 
+		{
 			Destroy(gameObject);
 		}
 	}
