@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23866230115024580}
   - component: {fileID: 114376353097637222}
   - component: {fileID: 114868761450562920}
+  - component: {fileID: 114396369039397194}
   - component: {fileID: 54439240782978224}
   - component: {fileID: 81058917067884846}
   - component: {fileID: 82457923385879388}
@@ -31,7 +32,7 @@ GameObject:
   - component: {fileID: 82446906161428128}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,6 +59,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -73,6 +75,7 @@ MeshRenderer:
   m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
@@ -110,7 +113,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1927090199839582}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -291,6 +294,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b62a8575ea50dd2409560fa045fbfd93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114396369039397194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927090199839582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a6e4deab7ab8744a91dc9a0764c650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114785058999331520
