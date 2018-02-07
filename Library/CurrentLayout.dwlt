@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 138
+  controlID: 134
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 492}
   m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 137
+  controlID: 133
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_MinSize: {x: 206, y: 121}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 108
+  controlID: 113
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -377,8 +377,8 @@ MonoBehaviour:
     y: 0
     width: 294
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 25}
   m_Panes:
   - {fileID: 25}
@@ -411,6 +411,7 @@ MonoBehaviour:
     y: 92
     width: 608
     height: 590
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -487,15 +488,16 @@ MonoBehaviour:
     y: 92
     width: 589
     height: 590
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 1528.448243730892
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -139.35252, y: -289.51443, z: 77.28503}
+    m_Target: {x: -158.78847, y: -350.35657, z: -34.590733}
     speed: 2
-    m_Value: {x: -139.35252, y: -289.51443, z: 77.28503}
+    m_Value: {x: -158.78847, y: -350.35657, z: -34.590733}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -504,6 +506,7 @@ MonoBehaviour:
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
+    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -518,17 +521,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.3758102, y: 0.59447575, z: -0.36691472, w: -0.6088834}
+    m_Target: {x: -0.17704688, y: 0.80540866, z: -0.48221317, w: -0.29570562}
     speed: 2
-    m_Value: {x: -0.3758102, y: 0.59447575, z: -0.36691472, w: -0.6088834}
+    m_Value: {x: -0.17704688, y: 0.80540866, z: -0.48221317, w: -0.29570562}
   m_Size:
-    m_Target: 628.51337
+    m_Target: 686.3523
     speed: 2
-    m_Value: 628.51337
+    m_Value: 686.3523
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
+  m_ShowGlobalGrid: 1
   m_LastSceneViewRotation: {x: -0.28569466, y: 0.714154, z: -0.44308618, w: -0.46047512}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -561,6 +565,7 @@ MonoBehaviour:
     y: 92
     width: 608
     height: 590
+  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -587,6 +592,7 @@ MonoBehaviour:
     y: 92
     width: 589
     height: 590
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &21
@@ -615,6 +621,7 @@ MonoBehaviour:
     y: 534
     width: 419
     height: 484
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -633,13 +640,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 65
-  m_LastProjectPath: D:\unity projects\Escape_From_Prison_Sim
+  m_LastProjectPath: C:\Users\vebbi\OneDrive\Dokumenter\GitHub\Escape_From_Prison_Sim
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7e280000
-    m_LastClickedID: 10366
-    m_ExpandedIDs: 000000007e280000ffffff7f
+    m_SelectedIDs: 38290000
+    m_LastClickedID: 10552
+    m_ExpandedIDs: 000000003829000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +674,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e280000
+    m_ExpandedIDs: 0000000038290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,6 +755,7 @@ MonoBehaviour:
     y: 703
     width: 659
     height: 315
+  m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -774,7 +782,8 @@ MonoBehaviour:
     y: 703
     width: 538
     height: 315
-  m_ViewPositions:
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
     m_KeySerializationHelper: []
     m_ValueSerializationHelper: []
   m_PreviewAnimator: {fileID: 0}
@@ -816,11 +825,12 @@ MonoBehaviour:
     y: 92
     width: 419
     height: 421
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 94280000
+    m_SelectedIDs: 6a290000
     m_LastClickedID: 0
-    m_ExpandedIDs: 0c67feff9a68feff0670feff587bfeffbc85feff7686feff8a87feff9087feff9a87feffa087feffb2bdffff00c0ffffe4cbffff54faffff00000000d8470000
+    m_ExpandedIDs: 8859ffff185bffff8a65fffff066ffffa068ffff886cffff7871ffff6c75ffff3e7cffff048affffce8effff8499ffffeae8ffff18faffff00000000902b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -869,6 +879,7 @@ MonoBehaviour:
     y: 92
     width: 292
     height: 926
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -901,6 +912,7 @@ MonoBehaviour:
     y: 92
     width: 292
     height: 926
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
   m_RegisteredViewURLs:
