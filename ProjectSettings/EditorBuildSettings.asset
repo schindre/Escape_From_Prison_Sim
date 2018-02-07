@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/scene 1.unity
     guid: 6ed4f7e47e0a5d344a9850774c320e5a
   - enabled: 1
-    path: Assets/DeathScene.unity
+    path: Assets/dogDeath.unity
     guid: ed250f4c6c0fc4e4b8edaf18ff54fe7a
+  - enabled: 1
+    path: Assets/mineDeath.unity
+    guid: aed288668a62c204d99b583fe860559a

@@ -22,11 +22,19 @@ public class playerDeath : MonoBehaviour {
 		Debug.Log ("restart");
 		if (other.gameObject.tag == "mine" ) 
 		{
-			SceneManager.LoadScene ("DeathScene");
+			Invoke ("ChangeLevel1", 0.3f);
 		}
 		if (other.gameObject.tag == "BadDog") 
 		{
-			SceneManager.LoadScene ("DeathScene");	
+			Invoke ("ChangeLevel", 0.3f);
 		}
+	}
+	void ChangeLevel()
+	{
+		SceneManager.LoadScene ("dogDeath");
+	}
+	void ChangeLevel1()
+	{
+		SceneManager.LoadScene ("mineDeath");
 	}
 }

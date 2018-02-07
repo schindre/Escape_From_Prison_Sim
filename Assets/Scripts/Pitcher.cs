@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pitcher : MonoBehaviour
 {
 
-	public static AudioClip Outer, Inner, Explosion, Normalize;
+	public static AudioClip Outer, Inner, Explosion, Normalize, running;
 	static AudioSource audioSrc;
 
 	// Use this for initialization
@@ -15,6 +15,7 @@ public class Pitcher : MonoBehaviour
 		Inner = Resources.Load<AudioClip>("Inner");
 		Explosion = Resources.Load<AudioClip>("Explosion");
 		Normalize = Resources.Load<AudioClip>("Normalize");
+		running = Resources.Load<AudioClip>("running");
 
 		audioSrc = GetComponent<AudioSource>();
 
@@ -27,6 +28,10 @@ public class Pitcher : MonoBehaviour
 		{
 		case "Outer":
 			audioSrc.pitch = (1.5f);
+			break;
+
+		case "running":
+			audioSrc.pitch = (1.0f);
 			break;
 		
 		case "Inner":
