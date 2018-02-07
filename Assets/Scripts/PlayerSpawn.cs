@@ -24,14 +24,6 @@ public class PlayerSpawn : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (playerInstance == null)
-		{
-			respawnTimer -= Time.deltaTime;
-
-			if (respawnTimer <= 0)
-			{
-				SpawnPlayer();
-			}
-		}
 	}
+
 }

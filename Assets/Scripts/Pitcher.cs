@@ -19,7 +19,6 @@ public class Pitcher : MonoBehaviour
 		audioSrc = GetComponent<AudioSource>();
 
 		//PlaySound("Backgroundmusic");
-		DontDestroyOnLoad(gameObject);
 	}
 
 	public static void PlaySound(string clip)
