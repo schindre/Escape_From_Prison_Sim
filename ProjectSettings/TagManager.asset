@@ -9,6 +9,7 @@ TagManager:
   - mine
   - Normalize
   - BadDog
+  - GOAL
   layers:
   - Default
   - TransparentFX

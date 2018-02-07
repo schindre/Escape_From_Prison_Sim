@@ -28,6 +28,10 @@ public class playerDeath : MonoBehaviour {
 		{
 			Invoke ("ChangeLevel", 0.3f);
 		}
+		if (other.gameObject.tag == "GOAL" ) 
+		{
+			Invoke ("ChangeLevel2", 0.3f);
+		}
 	}
 	void ChangeLevel()
 	{
@@ -36,5 +40,9 @@ public class playerDeath : MonoBehaviour {
 	void ChangeLevel1()
 	{
 		SceneManager.LoadScene ("mineDeath");
+	}
+	void ChangeLevel2()
+	{
+		SceneManager.LoadScene ("GOAL");
 	}
 }
